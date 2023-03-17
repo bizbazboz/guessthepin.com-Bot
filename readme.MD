@@ -1,6 +1,6 @@
 # GuessThePin Bot
 
-This is a bot that automatically guesses pins on [GuessThePin](https://www.guessthepin.com/) website. The bot uses Selenium and Firefox webdriver to automate the guessing process. The bot is divided into multiple threads that run concurrently, and each thread is responsible for guessing a specific range of pins. This approach is taken to speed up the process and maximize the number of guesses per second.
+This is a bot that automatically guesses pins on the [GuessThePin](https://www.guessthepin.com/) website. The bot uses Selenium and Firefox webdriver to automate the guessing process. The bot is divided into multiple threads that run concurrently, and each thread is responsible for guessing a specific range of pins. This approach is taken to speed up the process and maximize the number of guesses per second.
 
 ## Prerequisites
 

@@ -16,7 +16,7 @@ def message(message):
     async def on_ready():
         user = client.get_user(596986269125443597)
         await user.send(message)
-    client.run("MTA2Nzg1MjIzOTQ0OTg5OTAzOQ.GHGIFN.BeFfDjTMKI2bquYrOR6Hfvwu-rVsqmf6fWrY2Q")
+    client.run("")
 
 def main(lower,upper):
     pin_field = "/html/body/div[2]/form/input[1]"
@@ -27,7 +27,7 @@ def main(lower,upper):
     options = Options()
     options.binary = binary
     cap = DesiredCapabilities().FIREFOX
-    driver = webdriver.Firefox(options=options, capabilities=cap, executable_path="C:\\Users\\44778\\Desktop\\Code\\geckodriver.exe")
+    driver = webdriver.Firefox(options=options, capabilities=cap, executable_path="geckodriver.exe path")
     driver.get('https://www.guessthepin.com/')
 
     for code in range(lower,upper):

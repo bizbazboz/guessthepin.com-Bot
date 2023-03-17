@@ -14,7 +14,7 @@ def message(message):
     client = discord.Client(intents=intents)
     @client.event
     async def on_ready():
-        user = client.get_user(596986269125443597)
+        user = client.get_user(1234567890) # Place your discord ID here
         await user.send(message)
     client.run("")
 
